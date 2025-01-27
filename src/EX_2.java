@@ -10,5 +10,6 @@ public class EX_2 {
         System.out.println("Olá, " + nome + ", é um prazer te conhecer!");
 
         scanner.close();
+        // teste
     }
 }
