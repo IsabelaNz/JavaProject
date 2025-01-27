@@ -11,5 +11,6 @@ public class EX_3 {
         double salario = scanner.nextDouble();
 
         System.out.println("O funcionário " + nome + " tem um salário de " + salario + " em junho.");
+
     }
 }
