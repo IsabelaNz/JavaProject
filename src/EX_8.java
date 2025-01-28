@@ -5,9 +5,9 @@ public class EX_8 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite uma distância em metros: ");
-        Double metros = scanner.nextDouble();
+        double metros = scanner.nextDouble();
 
-        Double centimetros = metros * 100;
+        double centimetros = metros * 100;
         System.out.println("A distância de " + metros + " metros corresponde a " + centimetros + " centímetros.");
 
         double quilometros = metros / 1000;
@@ -24,7 +24,6 @@ public class EX_8 {
 
         double milimetros = metros * 1000;
         System.out.println("A distância de " + metros + " metros corresponde a " + milimetros + " milimetros.");
-
 
         scanner.close();
     }
