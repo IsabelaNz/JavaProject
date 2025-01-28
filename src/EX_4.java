@@ -11,6 +11,6 @@ public class EX_4 {
         System.out.println("Digite outro número: ");
         int n2 = scanner.nextInt();
 
-        System.out.println("O resultado é: " + (n1 + n2));
+        System.out.println("O resultado será: " + (n1 + n2));
     }
 }
