@@ -12,6 +12,6 @@ public class EX_5 {
 
         double media = (n1 + n2) / 2;
 
-        System.out.println("A média do aluno é: " +media);
+        System.out.println("A média do aluno é: " + media);
     }
 }
