@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class EX_4 {
+public class EX_05 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
@@ -11,6 +10,8 @@ public class EX_4 {
         System.out.println("Digite outro número: ");
         int n2 = scanner.nextInt();
 
-        System.out.println("O resultado será: " + (n1 + n2));
+        double media = (n1 + n2) / 2;
+
+        System.out.println("A média do aluno é: " + media);
     }
 }
