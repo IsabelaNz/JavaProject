@@ -5,6 +5,12 @@ public class EX_4 {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Digite um número: ");
+        int n1 = scanner.nextInt();
 
+        System.out.println("Digite outro número: ");
+        int n2 = scanner.nextInt();
+
+        System.out.println("O resultado é: " + (n1 + n2));
     }
 }
