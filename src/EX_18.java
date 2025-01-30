@@ -14,7 +14,5 @@ public class EX_18 {
         } else {
             System.out.println("Você pode votar");
         }
-
-
     }
 }
